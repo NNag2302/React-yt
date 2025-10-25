@@ -1,0 +1,46 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: monospace;
+}
+
+html,body{
+  height: 100%;
+  width: 100%;
+  background-color: #111;
+  color: white;
+}
+
+h2{
+  background-color: #505050;
+  margin: 25px;
+  padding: 15px;
+  font-size: 50px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+button{
+  background-color: #505050;
+  width: 30%;
+  margin: 25px;
+  padding: 15px;
+  font-size: 50px;
+  text-align: center;
+  color: white;
+  border-radius: 10px;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: #707070;
+}
+
+
+#reset{
+  margin: 25px;
+  padding: 15px;
+  width: 96.5%;
+  text-transform: uppercase;
+}
